@@ -1,4 +1,3 @@
-# PlanejadorFinanceiroMatComp
 ===========================================
   TRABALHO PRÁTICO – MATEMÁTICA COMPUTACIONAL
   Simulador de Planejamento Financeiro
