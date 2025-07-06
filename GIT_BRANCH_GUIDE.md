@@ -1,7 +1,18 @@
 
 # Guia Git - Trabalhando com Branches
 
-Este guia contém as principais instruções para trabalhar com branches no Git usando o terminal. Aqui você vai aprender como criar uma nova branch a partir de uma branch existente, atualizar sua branch original e enviar suas alterações para o GitHub.
+Este guia contém as principais instruções para trabalhar com branches no Git usando o terminal. Aqui você vai aprender como clonar um repositório, criar uma nova branch a partir de uma branch existente, atualizar sua branch original e enviar suas alterações para o GitHub.
+
+---
+
+## Passo 0: Clone o repositório (caso ainda não tenha)
+
+Se você ainda não clonou o repositório, use o comando abaixo:
+
+```bash
+git clone https://github.com/Igor43sende/PlanejadorFinanceiroMatComp.git
+cd PlanejadorFinanceiroMatComp
+```
 
 ---
 
@@ -80,6 +91,8 @@ git push -u origin nova-feature
 ## Resumo dos comandos principais
 
 ```bash
+git clone https://github.com/Igor43sende/PlanejadorFinanceiroMatComp.git
+cd PlanejadorFinanceiroMatComp
 git checkout PlajadorFinanceiroMatComp
 git pull origin PlajadorFinanceiroMatComp
 git checkout -b nome-da-nova-branch
