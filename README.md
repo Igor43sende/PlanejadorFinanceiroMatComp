@@ -1,12 +1,7 @@
-===========================================
+
   TRABALHO PRÁTICO – MATEMÁTICA COMPUTACIONAL
   Simulador de Planejamento Financeiro
-  Autores: Lucas E. Munhoz Baeta 
-           Daniel Henrique Oliveira Machado
-           Cauã Servinsckins Reis
-           Igor Resende Brito
-  Data: Julho/2025
-===========================================
+
 
 Este projeto simula a capitalização e descapitalização de uma meta financeira, utilizando investimentos cadastrados e o método de Newton-Raphson para cálculo da retirada mensal ideal.
 
