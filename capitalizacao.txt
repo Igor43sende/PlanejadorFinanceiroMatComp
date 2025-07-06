@@ -1,0 +1,20 @@
+# ============================================================
+# Aplicações para Capitalização
+# ============================================================
+
+i TesouroSelic2029           RendaFixa         0.0065 1
+i CDBBancoABC                RendaFixa         0.0070 1
+i LCIBancoXPTO               RendaFixa         0.0078 2
+i FundoImobiliarioKFOF      RendaVariavel     0.0080 3
+i TesouroIPCA2035            RendaFixa         0.0060 1
+i AcoesPetrobras             RendaVariavel     0.0092 4
+i AcoesVale                 RendaVariavel     0.0100 4
+i PrevidenciaPGBL1           PrevidenciaPrivada 0.0063 2
+i PrevidenciaVGBLTop        PrevidenciaPrivada 0.0058 2
+i ETFTechXPTO                RendaVariavel     0.0095 3
+i FundoAcoesXYZ              RendaVariavel     0.0110 5
+i CDBBancoPequeno            RendaFixa         0.0085 3
+i CDBBancoSeguro             RendaFixa         0.0073 1
+i TesouroPrefixado2027       RendaFixa         0.0068 1
+i MultimercadoABC            FundoMisto        0.0075 3
+f

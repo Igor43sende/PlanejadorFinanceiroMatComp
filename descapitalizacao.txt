@@ -1,0 +1,10 @@
+# ============================================================
+# Aplicações para Descapitalização (risco 1 e 2 somente)
+# ============================================================
+
+i TesouroSelic2027          RendaFixa        0.0060 1
+i CDBBancoSeguro            RendaFixa        0.0070 1
+i PrevidenciaVGBLSegura     PrevidenciaPrivada 0.0055 2
+i LCAAgronegocio            RendaFixa        0.0068 2
+i CDBBancoMedio             RendaFixa        0.0072 2
+f

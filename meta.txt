@@ -1,0 +1,13 @@
+# ============================================================
+# Arquivo de Metas de Planejamento - Rafael
+# ============================================================
+
+# Informações sobre a fase de capitalização
+c IDADEFORMATURA 25
+c IDADEFIMCAP 45
+c SALARIOMEDIOLIQ 9500.00
+c PERCINVESTIMENTO 0.15
+c PATRIMONIOACC 800000.00
+
+# Informações sobre a fase de descapitalização
+d IDADEFIMRETIRADA 75
