@@ -15,9 +15,9 @@ Este projeto é um **planejador financeiro pessoal** desenvolvido em linguagem C
 
 Você deve fornecer:
 
-- Um arquivo de **metas** (`meta.txt`)
-- Um arquivo de **investimentos para capitalização** (`invest-cap.txt`)
-- Um arquivo de **investimentos para descapitalização** (`invest-descap.txt`)
+- Um arquivo de **metas** (`meta-Igor.txt`)
+- Um arquivo de **investimentos para capitalização** (`capitalizacao.txt`)
+- Um arquivo de **investimentos para descapitalização** (`descapitalizacao.txt`)
 
 Todos esses arquivos devem seguir a estrutura esperada pelo código (veja comentários no próprio `.c` ou peça um modelo).
 
