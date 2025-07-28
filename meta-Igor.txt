@@ -1,0 +1,13 @@
+# ============================================================
+# Arquivo de Metas de Planejamento - Igor
+# ============================================================
+
+# Informações sobre a fase de capitalização
+c IDADEFORMATURA 23
+c IDADEFIMCAP 55
+c SALARIOMEDIOLIQ 8500.00
+c PERCINVESTIMENTO 0.15
+c PATRIMONIOACC 800000.00
+
+# Informações sobre a fase de descapitalização
+d IDADEFIMRETIRADA 75

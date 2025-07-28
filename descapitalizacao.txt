@@ -1,0 +1,12 @@
+#################################################
+#
+# Investimentos para o período de Descapitalização
+#
+#################################################
+# Opções de Risco 1 e 2
+i TesouroSelic2029      RendaFixa           0.01180  1
+i CDBBancoInter100CDI   RendaFixa           0.00940  2
+i CDBBancoBrasil        RendaFixa           0.00920  1
+i LCADaycoval92CDI      RendaFixa           0.00860  2
+i Poupanca              RendaFixa           0.00500  1
+f

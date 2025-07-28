@@ -1,0 +1,22 @@
+#################################################
+#
+# Investimentos para o período de Capitalização
+#
+#################################################
+# Categoria de Risco 1: Muito Baixo
+i TesouroSelic2029      	RendaFixa           	0.01180  1
+i CDBBancoBrasil        	RendaFixa           	0.00920  1
+i Poupanca              	RendaFixa           	0.00500  1
+i CDBDaycoval110CDI     	RendaFixa           	0.01030  2
+i CDBBancoInter100CDI   	RendaFixa           	0.00940  2
+i LCADaycoval92CDI      	RendaFixa           	0.00860  2
+i FundoMultimercadoVerde 	FundoMultimercado   	0.01200  3
+i ETFBOVA11             	RendaVariavel       	0.01000  3
+i FIIMallsBrasilPlural  	FundoImobiliario    	0.00700  3
+i FundoAcoesAlaskaBlack 	FundoDeAcoes        	0.01800  4
+i AcoesPetrobras        	RendaVariavel       	0.01500  4
+i AcoesVale             	RendaVariavel       	0.01400  4
+i FundoVentureCapitalAstella 	FundoVentureCapital 	0.02800  5
+i FundoSmallCapsGuepardo 	FundoDeAcoes        	0.02200  5
+i AcoesCielo            	RendaVariavel       	0.02000  5
+f
