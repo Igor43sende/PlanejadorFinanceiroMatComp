@@ -1,62 +1,95 @@
+# 🧮 Planejador Financeiro em C
 
-  TRABALHO PRÁTICO – MATEMÁTICA COMPUTACIONAL
-  Simulador de Planejamento Financeiro
+Este projeto é um **planejador financeiro pessoal** desenvolvido em linguagem C. Ele realiza simulações de **capitalização (acúmulo de patrimônio)** e **descapitalização (retirada mensal)** com base em metas e investimentos definidos pelo usuário.
 
+## 📌 Funcionalidades
 
-Este projeto simula a capitalização e descapitalização de uma meta financeira, utilizando investimentos cadastrados e o método de Newton-Raphson para cálculo da retirada mensal ideal.
+- Leitura de dados financeiros e investimentos a partir de arquivos `.txt`;
+- Cálculo da **taxa mínima necessária** para atingir o patrimônio desejado usando o **método de Newton-Raphson**;
+- Seleção do **melhor investimento disponível** para atingir a meta;
+- Simulação da **evolução mensal do patrimônio** durante a fase de investimento;
+- Simulação da **retirada mensal possível** com base nos investimentos disponíveis após o período de capitalização;
+- Geração de **relatórios detalhados** de capitalização e descapitalização em formato `.txt`.
 
-REQUISITOS:
------------
-- Windows com o compilador GCC instalado (via MinGW ou WSL).
-- PowerShell (ou CMD) para executar os comandos.
-- Todos os arquivos devem estar na mesma pasta:
-    - plan-fin.c
-    - meta.txt
-    - capitalizacao.txt
-    - descapitalizacao.txt
+## 📁 Estrutura Esperada dos Arquivos
 
-ARQUIVOS:
----------
-1. plan-fin.c .................. Código-fonte em C do simulador.
-2. meta-(...).txt .................... Dados da meta financeira.
-3. capitalizacao.txt ........... Lista de aplicações para capitalização.
-4. descapitalizacao.txt ........ Lista de aplicações para descapitalização.
-5. relatorio.txt (gerado) ...... Saída com os resultados simulados.
+Você deve fornecer:
 
-PASSO A PASSO PARA EXECUTAR:
-----------------------------
+- Um arquivo de **metas** (`meta.txt`)
+- Um arquivo de **investimentos para capitalização** (`invest-cap.txt`)
+- Um arquivo de **investimentos para descapitalização** (`invest-descap.txt`)
 
-1. Abra o PowerShell e entre na pasta do projeto:
+Todos esses arquivos devem seguir a estrutura esperada pelo código (veja comentários no próprio `.c` ou peça um modelo).
 
-   Exemplo:
-   cd C:\Users\SEU_USUARIO\
+## ⚙️ Como compilar e executar
 
-2. Compile o código-fonte com o GCC:
+### 🐧 Linux
 
-   gcc plan-fin.c -o plan-fin.exe
+1. **Abra o terminal e compile o código:**
 
-   ➜ Isso irá criar um arquivo chamado: plan-fin.exe
+```bash
+gcc plan-fin.c -o plan-fin -lm
+```
 
-3. Execute o programa com os arquivos de entrada:
+> ⚠️ O `-lm` é necessário para linkar a biblioteca matemática (`math.h`).
 
-   .\plan-fin.exe meta-Igor.txt capitalizacao.txt descapitalizacao.txt relatorio.txt
-   .\plan-fin.exe meta-Lucas.txt capitalizacao.txt descapitalizacao.txt relatorio.txt
-   .\plan-fin.exe meta-Caua.txt capitalizacao.txt descapitalizacao.txt relatorio.txt
-   .\plan-fin.exe meta-Daniel.txt capitalizacao.txt descapitalizacao.txt relatorio.txt
-   ➜ O programa irá gerar um arquivo chamado: relatorio.txt
+2. **Execute o programa com os arquivos necessários:**
 
-4. Visualize o relatório:
+```bash
+./plan-fin meta-Igor.txt capitalizacao.txt descapitalizacao.txt relatorio.txt
+```
 
-   type relatorio.txt
+---
 
-OBSERVAÇÕES:
-------------
-- O programa utiliza separadores de linha e espaços conforme o padrão do trabalho.
-- Certifique-se de que os arquivos .txt estão no formato correto (sem extensões ocultas .txt.txt).
-- Em caso de erro “arquivo não encontrado”, verifique se os nomes estão exatos e se estão na mesma pasta.
+### 🪟 Windows
 
-SUPORTE:
---------
-Dúvidas e manutenção do código: [igorbrito2705@gmail.com]
+1. **Compile o programa no terminal (como o CMD ou Git Bash), assumindo que você tenha `gcc` instalado (via MinGW, por exemplo):**
 
-Boa execução! ✔️
+```bash
+gcc plan-fin.c -o plan-fin.exe -lm
+```
+
+2. **Execute o programa:**
+
+```bash
+plan-fin.exe meta-Igor.txt capitalizacao.txt descapitalizacao.txt relatorio.txt
+```
+
+> Após a execução, o relatório será aberto automaticamente no **Notepad**.
+
+---
+
+## 📝 Exemplo de Execução
+
+```bash
+./plan-fin meta-Igor.txt capitalizacao.txt descapitalizacao.txt relatorio.txt
+```
+
+- `meta.txt`: contém os dados da meta financeira (idade de formatura, salário, etc.);
+- `invest-cap.txt`: lista de investimentos com taxas e riscos para a fase de capitalização;
+- `invest-descap.txt`: lista de investimentos para o período de retirada;
+- `relatorio.txt`: arquivo de saída com os resultados da simulação.
+
+---
+
+## 📄 Saída do programa
+
+O arquivo `relatorio.txt` conterá:
+
+- Análise da fase de **acumulação (capitalização)**;
+- Melhor investimento encontrado;
+- Mês e ano em que a meta foi atingida (se aplicável);
+- Simulação de retirada de recursos (descapitalização) para cada ativo disponível.
+
+---
+
+## 🔧 Dependências
+
+- Compilador C compatível com C99 ou superior;
+- Biblioteca padrão do C (`stdio.h`, `stdlib.h`, `math.h`, etc).
+
+---
+
+## 📬 Contato
+
+Caso tenha dúvidas ou queira contribuir com melhorias, sinta-se livre para entrar em contato com o autor ou abrir um pull request.
